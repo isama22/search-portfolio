@@ -1,0 +1,142 @@
+.root {
+  display: flex;
+  flex-direction: row;
+}
+
+.personal {
+  border-right: solid;
+  width: 300px;
+  padding: 40px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.projects {
+  width: 100%;
+}
+
+.resume-bar {
+  border-bottom: solid;
+  margin: 40px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.download-link {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.project-wrapper {
+  margin: 40px;
+}
+
+.project-bar {
+  margin: 20px 0;
+  background-color:rgb(212, 199, 172, 0.6);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.project-bar:nth-child(odd) {
+  background-color: rgb(217, 211, 200, 0.6);
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+.text-wrapper:has(.sandstone-details) {
+  max-width: 550px;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 12px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.logo {
+  border-left: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 20px;
+  height: 100%;
+  min-width: 260px;
+}
+
+@media only screen and (min-width: 1190px) {
+  .text-wrapper:has(.sandstone-details) {
+    max-width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 1190px) {
+  .project-bar {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .text-wrapper {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .project-title {
+    margin-bottom: 20px;
+  }
+
+  .project-links {
+    margin-top: 20px;
+  }
+
+  .logo {
+    border-left: none;
+    border-top: solid 1px;
+    width: 100%;
+    padding: 0;
+    min-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .root {
+    flex-direction: column;
+  }
+
+  .personal {
+    width: unset;
+    border-right: none;
+  }
+
+  .sandstone-details {
+    padding: 0 20px;
+  }
+}
