@@ -10,4 +10,76 @@ a {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+/* shared styling for detail pages */
+
+.projects-root {
+  display: flex;
+  justify-content: center;
+}   
+
+.projects-content {
+  width: 70%;
+  border-left: solid 1px;
+  border-right: solid 1px;
+}
+
+.back-link {
+  margin: 40px;
+}
+
+.detail-block {
+  background-color:rgb(212, 199, 172, 0.6);
+  border-radius: 5px;
+  min-height: 500px;
+  margin: 40px 100px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.overview {
+  background-color:rgb(212, 199, 172, 0.6);
+  border-radius: 5px;
+  height: 100px;
+  margin: 40px 100px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.detail-block:nth-child(odd) {
+  background-color: rgb(217, 211, 200, 0.6);
+}
+
+.detail-block-title {
+  font-weight: bold;
+}
+
+.image-block {
+  border-top: solid 1px;
+  min-height: 200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1190px) {
+  .projects-content {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .projects-content {
+    width: 100%;
+  }
+
+  .detail-block, .overview {
+    margin: 40px;
+  }  
 }
