@@ -33,45 +33,76 @@ a:hover {
 .detail-block {
   background-color:rgb(212, 199, 172, 0.6);
   border-radius: 5px;
-  min-height: 500px;
   margin: 40px 100px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 40px;
+  line-height: 24px;
 }
 
 .overview {
   background-color:rgb(212, 199, 172, 0.6);
   border-radius: 5px;
-  height: 100px;
   margin: 40px 100px;
   font-size: 14px;
   display: flex;
   align-items: center;
   padding: 20px;
+  line-height: 24px;
 }
 
-.detail-block:nth-child(odd) {
-  background-color: rgb(217, 211, 200, 0.6);
+.detail-block-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .detail-block-title {
   font-weight: bold;
 }
 
+.detail-block-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 11px;
+  margin-left: 20px;
+}
+
+.detail-block-link:hover {
+  color: #55c7b9;
+}
+
 .image-block {
   border-top: solid 1px;
   min-height: 200px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.image-block img {
+  margin: 10px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 1190px) {
   .projects-content {
     width: 80%;
   }
+}
+
+@media only screen and (max-width: 890px) {
+  .image-block img {
+    max-width: 360px;
+    max-height: 200px;
+    object-fit: contain;
+  } 
 }
 
 @media only screen and (max-width: 700px) {
@@ -81,5 +112,36 @@ a:hover {
 
   .detail-block, .overview {
     margin: 40px;
-  }  
+  }
+
+  .image-block img {
+    max-width: 300px;
+    max-height: 150px;
+  } 
+}
+
+/* styling specific to only certain blocks */
+
+.image-block.flourish {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-block.flourish img {
+  min-height: 425px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 890px) {
+  .image-block.flourish img {
+    min-height: 425px;
+    border: solid 1px red;
+  } 
+}
+
+@media only screen and (max-width: 700px) {
+  .image-block.flourish img {
+    min-height: 380px;
+    border: solid 1px red;
+  } 
 }

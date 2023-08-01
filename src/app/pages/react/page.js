@@ -1,5 +1,6 @@
 import data from "../../../../data/reactData.js";
 import Link from "next/link";
+import Image from "next/image";
 
 const ReactProjects = () => {
   return(
@@ -9,16 +10,26 @@ const ReactProjects = () => {
           {data.blocks.map(block => {
             return (
               <div className="detail-block">
-                <p className="detail-block-title">{block.title}</p>
-                <p>{block.description}</p>
-                <div className="image-block">
-                    {/* <Image
-                      src={block.logo}
-                      alt={block.title}
-                      width={200}
-                      height={30}
-                    /> */}
+                <div className="detail-block-header">
+                  <p className="detail-block-title">{block.title}</p>
+                  <a className="detail-block-link" href={block.link} target="_blank">{block.link}</a>
                 </div>
+                <p>{block.description}</p>
+                <p>Technologies: {block.technologies}</p>
+                {block.images &&
+                  <div className={`image-block ${block.title == "Flourish" ? "flourish" : ""}`}>
+                    {block.images.map(image => {
+                      return(
+                        <Image
+                          src={image.src}
+                          alt={block.title}
+                          width={600}
+                          height={350}
+                        />
+                      )
+                    })}
+                  </div>
+                }
               </div>
             )
           })}

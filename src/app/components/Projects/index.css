@@ -13,9 +13,9 @@
   height: 100px;
 }
 
-.project-bar:nth-child(odd) {
+/* .project-bar:nth-child(odd) {
   background-color: rgb(217, 211, 200, 0.6);
-}
+} */
 
 .project-bar:hover {
   text-decoration: underline;

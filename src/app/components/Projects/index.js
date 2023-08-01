@@ -7,7 +7,7 @@ const Projects = () => {
 
   const handleContent = (block) => {
     return (
-      <div className="project-bar">
+      <div className='project-bar'>
         <div className='text-wrapper'>
           <div className='project-title'>{block.title}</div>
           <div className='project-description'>
