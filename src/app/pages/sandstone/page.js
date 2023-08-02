@@ -19,7 +19,9 @@ const Sandstone = () => {
              <a className="detail-block-link" href={block.link} target="_blank">{block.link}</a>
            </div>
           <p>{block.description}</p>
-          <p>Technologies: {block.technologies}</p>
+          {block.technologies && 
+            <p>Technologies: {block.technologies}</p>
+          }
           {block.images &&
             <div className="image-block">
               {block.images.map(image => {
