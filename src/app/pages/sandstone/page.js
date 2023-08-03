@@ -29,8 +29,8 @@ const Sandstone = () => {
                   <Image
                     src={image.src}
                     alt={block.title}
-                    width={600}
-                    height={350}
+                    width={+(image.width)}
+                    height={+(image.height)}
                   />
                 )
               })}

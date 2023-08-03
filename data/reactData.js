@@ -6,7 +6,9 @@ export default {
       "technologies": "Next.js, Auth0",
       "images": [
         { 
-          "src": "/assets/clients/sowell_1.png"
+          "src": "/assets/clients/sowell_1.png",
+          "height": "290",
+          "width": "600"
         }
       ]
     }, 
@@ -16,10 +18,14 @@ export default {
       "technologies": "Next.js, Web Share API",
       "images": [
         { 
-          "src": "/assets/clients/flourish_1.png"
+          "src": "/assets/clients/flourish_1.png",
+          "height": "290",
+          "width": "600"
         }, 
         {
-          "src": "/assets/clients/flourish_2.png"
+          "src": "/assets/clients/flourish_2.png",
+          "height": "290",
+          "width": "600"
         }
       ]
     }, 

@@ -24,6 +24,7 @@ a:hover {
   width: 70%;
   border-left: solid 1px;
   border-right: solid 1px;
+  padding: 20px;
 }
 
 .back-link {
@@ -111,7 +112,7 @@ a:hover {
   }
 
   .detail-block, .overview {
-    margin: 40px;
+    margin: 20px;
   }
 
   .image-block img {

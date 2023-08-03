@@ -23,8 +23,8 @@ const ShopifyProjects = () => {
                         <Image
                           src={image.src}
                           alt={block.title}
-                          width={500}
-                          height={250}
+                          width={+(image.width)}
+                          height={+(image.height)}
                         />
                       )
                     })}

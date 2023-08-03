@@ -2,7 +2,7 @@ export default {
   blocks: [    
     {
       "intro": true,
-      "description": "In my time with Sandstone I was fortunate to be exposed to multiple kinds of teams, management organization, and codebases. I would regulary work on a few clients at a time and became fluent in each of their technologies and conventions; from Shopify and Liquid served with both theme kit and Slater, to React based repositories, and traditional jQuery work. I grew into an independent role where I was able to have full ownership of tasks and features from start to finish. I've deployed to live production builds of sites that had thousands of visitors every month, finished time sensitive work that needed to be ready in time for sales that accounted for a large majority of our clients yearly revenue, met regularly with project managers, designers, and codevelopers from both my team and the clients. Aside from client work I've also participated in code reviews, candidate interviews for new coworkers, helped them adapt to our general styling conventions and workflows, and internal projects for marketing. wrote internal guide documents for developer and non developer coworkers alike. represented the company in meetings with our client's project managers, designers, directors, and founders / mention researching and presentations - briefings/ angular ",
+      "description": "In my time with Sandstone I was fortunate to be exposed to multiple kinds of teams, management organization, and codebases. I would regulary work on a few clients at a time and became fluent in each of their technologies and conventions; from Shopify and Liquid served with both theme kit and Slater, to React based repositories, and traditional jQuery work. I grew into an independent role where I was able to have full ownership of tasks and features from start to finish. I've deployed to live production builds of sites that had hundreds of thousands of visitors every month, finished time sensitive work that needed to be ready in time for sales that accounted for a large majority of our clients yearly revenue, met regularly with project managers, designers, and codevelopers from both my team and the clients. Aside from client work I've also participated in code reviews, candidate interviews for new coworkers, helped them adapt to our general styling conventions and workflows, and internal projects for marketing. wrote internal guide documents for developer and non developer coworkers alike.",
     }, 
     {
       "title": "Our Headless CMS Marketing Tool",
@@ -10,13 +10,19 @@ export default {
       "technologies": "Next.js, Contentful, SWR, Google Analytics",
       "images": [
         { 
-          "src": "/assets/clients/cms_1.png"
+          "src": "/assets/clients/cms_1.png",
+          "height": "290",
+          "width": "600"
         }, 
         {
-          "src": "/assets/clients/cms_2.png"
+          "src": "/assets/clients/cms_2.png",
+          "height": "430",
+          "width": "600"
         },
         {
-          "src": "/assets/clients/cms_3.png"
+          "src": "/assets/clients/cms_3.png",
+          "height": "400",
+          "width": "600"
         }
       ]
     },

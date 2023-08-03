@@ -6,10 +6,14 @@ export default {
       "technologies": "Shopify, Liquid, jQuery, Google Analytics, Themekit", 
       "images": [
         { 
-          "src": "/assets/clients/ettitude_1.png"
+          "src": "/assets/clients/ettitude_1.png",
+          "height": "290",
+          "width": "600"
         },
         {
-          "src": "/assets/clients/ettitude_2.png"
+          "src": "/assets/clients/ettitude_2.png",
+          "height": "290",
+          "width": "600"
         }
       ],
       "link": "https://www.ettitude.com"
@@ -20,10 +24,14 @@ export default {
       "technologies": "Shopify, Liquid, Vanilla Javascript, Google Analytics, Slater", 
       "images": [
         { 
-          "src": "/assets/clients/lulu_1.png"
+          "src": "/assets/clients/lulu_1.png",
+          "height": "290",
+          "width": "600"
         },
         {
-          "src": "/assets/clients/lulu_2.png"
+          "src": "/assets/clients/lulu_2.png",
+          "height": "290",
+          "width": "600"
         }
       ],
       "link": "https://www.luluandgeorgia.com"
@@ -34,10 +42,14 @@ export default {
       "technologies": "Shopify, Liquid, jQuery, Google Analytics, Slater", 
       "images": [
         { 
-          "src": "/assets/clients/venim_1.png"
+          "src": "/assets/clients/venim_1.png",
+          "height": "290",
+          "width": "600"
         },
         {
-          "src": "/assets/clients/venim_2.png"
+          "src": "/assets/clients/venim_2.png",
+          "height": "290",
+          "width": "600"
         }
       ],
       "link": "https://venim.com"

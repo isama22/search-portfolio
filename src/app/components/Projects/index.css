@@ -41,7 +41,7 @@
   padding: 10px;
   display: flex;
   flex-direction: row;
-
+  text-align: center;
 }
 
 .project-title {
@@ -118,5 +118,9 @@
 @media only screen and (max-width: 700px) {
   .sandstone-details {
     padding: 0 20px;
+  }
+
+  .project-description {
+    padding: 10px 20px;
   }
 }
