@@ -4,7 +4,7 @@ const ResumeBar = () => {
   return(
     <div className='resume-bar'>
     <a 
-      href="https://docs.google.com/document/d/1a2FQ4kdWOxkoTPwX2E0IA8OUBVTJE8cAkCKqyvG_rEM/edit?usp=sharing" 
+      href="https://docs.google.com/document/d/1nVh9p02SQV4PPc6FHZ26CeGiqfNppV7GFhbi4bzEzmQ/edit?usp=sharing" 
       target="_blank"
       download
       className='resume-doc-link'

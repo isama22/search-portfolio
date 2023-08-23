@@ -24,6 +24,13 @@ export default {
           "height": "400",
           "width": "600"
         }
+      ],
+      "mobile_images": [
+        {
+          "src": "/assets/clients/cms_mobile.png",
+          "height": "644",
+          "width": "290"
+        }
       ]
     },
     {

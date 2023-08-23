@@ -16,6 +16,13 @@ export default {
           "width": "600"
         }
       ],
+      "mobile_images": [
+        {
+          "src": "/assets/clients/ettitude_mobile.png",
+          "height": "644",
+          "width": "290"
+        }
+      ],
       "link": "https://www.ettitude.com"
     }, 
     {
@@ -34,6 +41,13 @@ export default {
           "width": "600"
         }
       ],
+      "mobile_images": [
+        {
+          "src": "/assets/clients/lulu_mobile.png",
+          "height": "644",
+          "width": "290"
+        }
+      ],
       "link": "https://www.luluandgeorgia.com"
     },
     {
@@ -50,6 +64,13 @@ export default {
           "src": "/assets/clients/venim_2.png",
           "height": "290",
           "width": "600"
+        }
+      ],
+      "mobile_images": [
+        {
+          "src": "/assets/clients/venim_mobile.png",
+          "height": "644",
+          "width": "290"
         }
       ],
       "link": "https://venim.com"

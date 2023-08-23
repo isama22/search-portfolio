@@ -36,6 +36,20 @@ const Sandstone = () => {
               })}
             </div>
           }
+          {block.mobile_images &&
+            <div className="mobile-image">
+              {block.mobile_images.map(image => {
+                return(
+                  <Image
+                    src={image.src}
+                    alt={block.title}
+                    width={+(image.width)}
+                    height={+(image.height)}
+                  />
+                )
+              })}
+            </div>
+          }
         </div>
       )
     }

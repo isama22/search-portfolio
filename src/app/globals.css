@@ -85,11 +85,24 @@ a:hover {
   justify-content: center;
   flex-direction: column;
   padding: 20px 0;
+  display: block;
+
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
 }
 
 .image-block img {
   margin: 10px;
   border-radius: 5px;
+}
+
+.mobile-image {
+  display: none;
+
+  @media only screen and (max-width: 700px) {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 1190px) {
@@ -109,6 +122,10 @@ a:hover {
 @media only screen and (max-width: 700px) {
   .projects-content {
     width: 100%;
+  }
+
+  .detail-block {
+    align-items: center;
   }
 
   .detail-block, .overview {
@@ -134,15 +151,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 890px) {
+  .image-block.flourish {
+    display: flex;
+    flex-direction: column;
+  }
+
   .image-block.flourish img {
     min-height: 425px;
-    border: solid 1px red;
   } 
 }
 
 @media only screen and (max-width: 700px) {
   .image-block.flourish img {
     min-height: 380px;
-    border: solid 1px red;
-  } 
+  }
 }
