@@ -26,7 +26,7 @@ export default {
     },
     {
       "title": "My Creative Portfolio",
-      "description": "a headless CMS with Next for serving my analog work",
+      "description": "a headless CMS with Next for serving my analog work (WIP)",
       "deployment": "https://isa-martinez-portfolio.vercel.app/",
       "repository": "https://github.com/isama22/isa-martinez",
       "logo": "/assets/frogs.png",

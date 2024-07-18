@@ -18,7 +18,7 @@ const ReactProjects = () => {
                   <div>
                     {block.paragraphs.map(paragraph => {
                       return(
-                        <p>{paragraph.text}</p>
+                        <div className="sia-paragraph" dangerouslySetInnerHTML={{ __html: paragraph.text }} />
                       )
                     })}
                   </div>

@@ -34,10 +34,10 @@ export default {
       "title": "Flourish",
       "paragraphs": [
         {
-          "text": "As work scaled up with the agency’s Google contract and projects multiplied with their Area 120 team, I was brought onto this small scale pitch task."
+          "text": "As work scaled up with the agency’s Google contract and projects multiplied with their Area 120 team, I was brought onto this small scale pitch task to supplement while my coworkers continued work on <a href='https://threadit.area120.com/' targe='_blank'>threadit<\/a>."
         },
         {
-          "text": "As part of a four person team, we worked quickly to put together a lean demo that would be shared office wide on google’s side to gauge interest before they committed to this particular project. It was a simple card maker that allowed users to upload images, draw, apply frames, and then download or send their card using the web share API, and made use of React’s canvas useRef and useContext hooks to create an editor"
+          "text": "As part of a four person team, we worked quickly to put together a lean demo that would be shared office wide on google’s side to gauge interest before they committed to this particular project. It was a simple card maker that allowed users to upload images, draw, apply frames, and then download or send their card using the web share API, and made use of React’s canvas useRef and useContext hooks to create an editor."
         }
       ],
       "technologies": "Next.js, Web Share API",

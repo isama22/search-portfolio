@@ -4,7 +4,7 @@ export default {
       "title": "Ettitude",
       "paragraphs": [
         {
-          "text": "Worked on from June of 2021 through July of 2023."
+          "text": "Owned from June of 2021 through July of 2023."
         },
         {
           "text": "On this client we inherited a large codebase that was full of lengthy, unmanageable, and outdated code from their previous developers. By independently optimizing sections and files relevant to weekly tickets we were able to reduce the volume and improve the quality of the codebase without sacrificing time needed for other deliverables. I was able to make an impact on almost every part of the site, but my most effective projects were in building modules that empowered their team to build new landing pages and populate them with a multitude of custom sections, reducing unnecessary dev time."
@@ -42,13 +42,16 @@ export default {
       "title": "Lulu and Georgia",
       "paragraphs": [
         {
-          "text": "Worked on from March through December of 2022."
+          "text": "Owned from March through December of 2022."
         },
         {
-          "text": "I collaborated with our client as part of a cross functional team of developers and designers to completely rebuild their PDPs image and detail/buy section."
+          "text": "I collaborated with our client as part of a cross functional team of developers and designers to completely rebuild their PDP's image and detail/buy section."
         },
         {
-          "text": "We delivered and tested this in just over a month using Jira to manage the task breakdown and meeting regularly with our designer and project manager. I also worked on rebuilding their wishlist functionality across the site and implemented a mobile redesign of the navigation menu while a counterpart worked on the desktop version. I was also able to reduce the loading time on the PDP from 1138ms to 59 by consolidating redundant code and utilizing a hash table lookup method for applying the metafields that populated the slowest performing component of the page. You can check out the mobile nav menu, image gallery and modal on the PDP for examples of my work."
+          "text": "We tested and delivered this in just over a month using Jira to manage the task breakdown, meeting regularly with our designer and project manager. I also worked on rebuilding their wishlist functionality across the site and implemented a mobile redesign of the navigation menu while a counterpart worked on the desktop version. I was also able to reduce the loading time on the PDP from 1138ms to 59 by consolidating redundant code and utilizing a hash table lookup method for applying the metafields that populated the slowest performing component of the page."
+        }, 
+        {
+          "text": "You can check out the mobile nav menu, and the PDP image modal and gallery for live examples of my work."
         }
       ],
       "technologies": "Shopify, Liquid, Vanilla Javascript, Google Analytics, Slater", 
