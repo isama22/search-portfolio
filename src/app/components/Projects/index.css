@@ -2,6 +2,10 @@
   margin: 40px;
 }
 
+.project-wrapper {
+  margin: 40px;
+}
+
 .project-bar {
   margin: 20px 0;
   background-color:rgb(212, 199, 172, 0.6);
@@ -13,8 +17,16 @@
   height: 100px;
 }
 
+.project-bar:nth-child(odd) {
+  background-color: rgb(217, 211, 200, 0.6);
+}
+
 .project-bar:hover {
   background-color:rgba(182, 154, 121, 0.39);
+}
+
+.project-bar:nth-child(odd):hover {
+  background-color:rgba(217, 211, 200, 0.943)
 }
 
 .text-wrapper {
@@ -28,8 +40,8 @@
   font-size: 12px;
 }
 
-.text-wrapper:has(.sandstone-details) {
-  max-width: 550px;
+.text-wrapper:hover {
+  text-decoration: underline;
 }
 
 .project-description {
@@ -73,6 +85,11 @@
 .sandstone img {
   max-width: 220px;
   max-height: 27px;
+}
+
+.sia img {
+  max-width: 150px;
+  max-height: 70px;
 }
 
 @media only screen and (min-width: 1441px) {

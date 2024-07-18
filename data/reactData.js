@@ -2,7 +2,7 @@ export default {
   blocks: [   
     {
       "title": "SoWell",
-      "description": "This was my primary react project at the agency until the marketing CMS I began developing this year. Built as a patient portal for a health service, users can log in and review results from their health test kits. Aside from styling updates and general optimization I was responsible for implementing a platform demo feature that would be able to customize the results portal to new potential clients when the company began strategizing a rebrand to become a SaaS company and allow other brands to make use of the project. I created a custom hook that took brand data and used it to modify assets and colors on the page per object.",
+      "description": "This was my primary react project at the agency until the marketing CMS I began developing this year. Built as a patient portal for a health service, users can log in and review results from their health test kits. Aside from styling updates and general optimization I was responsible for implementing a platform demo feature that would be able to customize the results portal to new potential clients when the company began strategizing a rebrand to become a SaaS company and allow other brands to make use of the project. I created a custom hook that took brand data and used it to modify assets and colors on the page per object. storefront is built on shopify, we had developed the patient portal that customers used to log in and view their test results after they mailed back test kits",
       "technologies": "Next.js, Auth0",
       "link": "https://www.getsowell.com/", 
       "images": [

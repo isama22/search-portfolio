@@ -3,7 +3,11 @@
   flex-direction: row;
 }
 
-.contact a:hover, .resume-bar a:hover {
+.personal-link {
+  text-decoration: underline;
+}
+
+.personal-link:hover {
   color: #55c7b9;
 }
 

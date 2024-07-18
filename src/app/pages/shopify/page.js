@@ -6,7 +6,7 @@ const ShopifyProjects = () => {
   return(
     <div className="projects-root">
       <div className="projects-content">
-        <Link href="/" className="back-link">• back</Link>
+        <Link href="/" className="back-link">&#8592; back</Link>
           {data.blocks.map(block => {
             return (
               <div className="detail-block">

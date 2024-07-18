@@ -9,7 +9,9 @@ const Projects = () => {
     return (
       <div className='project-bar'>
         <div className='text-wrapper'>
-          <div className='project-title'>{block.title}</div>
+          <Link href={block.link} target={ `${ block.title === "My Creative Portfolio" ? "_blank" : ""}` }>
+            <div className='project-title'>{block.title}</div>
+          </Link>
           <div className='project-description'>
             <p>{block.description}</p>
           </div>
@@ -22,7 +24,7 @@ const Projects = () => {
             ""
           }
         </div>
-        <div className={`${ block.title === "Sandstone" ? "sandstone" : "" } logo`}>                                               
+        <div className={`${ block.title === "Sandstone" ? "sandstone" : block.title === "Sia Partners x Meta" ? "sia" : "" } logo`}>                                               
           <Image
             src={block.logo}
             alt={block.title}
@@ -37,17 +39,9 @@ const Projects = () => {
   return(
     <div className='project-wrapper'>
       {data.blocks.map(block => {
-        if (block.link) {
-          return (
-            <Link href={block.link}>
-              {handleContent(block)}
-            </Link>
-          )
-        } else {
-          return (
-            handleContent(block)
-          )
-        }})
+        return (
+          handleContent(block)
+        )})
       }
     </div>
   )

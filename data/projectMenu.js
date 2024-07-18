@@ -1,6 +1,12 @@
 export default {
   blocks: [    
     {
+      "title": "Sia Partners x Meta",
+      "description": "My recent work on about.meta.com under a french based consulting firm",
+      "logo": "/assets/SiaXperience-logo_2.png",
+      "link": "pages/sia-partners"
+    },
+    {
       "title": "Sandstone",
       "description": "a showcase of my time at a local digital agency",
       "logo": "/assets/logo.png",
@@ -24,7 +30,7 @@ export default {
       "deployment": "https://isa-martinez-portfolio.vercel.app/",
       "repository": "https://github.com/isama22/isa-martinez",
       "logo": "/assets/frogs.png",
-      "link": false
+      "link": "https://isa-martinez-portfolio.vercel.app"
     }
   ]
 };

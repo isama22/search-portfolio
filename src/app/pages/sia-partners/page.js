@@ -1,16 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
-import data from "../../../../data/sandstoneData.js";
+import data from "../../../../data/siapartnersData.js";
 
-const Sandstone = () => {
+const SiaPartners = () => {
+  console.log("block", data.blocks[1].paragraphs.length)
+
   return(
     <div className="projects-root">
       <div className="projects-content">
         <Link href="/" className="back-link">&#8592; back</Link>
         {data.blocks.map(block => {
+
           return(
             <div className="detail-block">
-
               {block.pageTitle ? <h1 className="page-title">{block.pageTitle}</h1> : ""}
 
               {block.title ? 
@@ -72,4 +74,4 @@ const Sandstone = () => {
     </div>
   )
 }
-export default Sandstone;
+export default SiaPartners;
