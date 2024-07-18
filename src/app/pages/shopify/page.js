@@ -14,7 +14,16 @@ const ShopifyProjects = () => {
                   <p className="detail-block-title">{block.title}</p>
                   <a className="detail-block-link" href={block.link} target="_blank">{block.link}</a>
                 </div>
-                <p>{block.description}</p>
+                {block.paragraphs ? 
+                  <div>
+                    {block.paragraphs.map(paragraph => {
+                      return(
+                        <p>{paragraph.text}</p>
+                      )
+                    })}
+                  </div>
+                  : ""
+                }
                 <p>Technologies: {block.technologies}</p>
                 {block.images &&
                   <div className="image-block">

@@ -2,13 +2,13 @@ export default {
   blocks: [    
     {
       "title": "Sia Partners x Meta",
-      "description": "My recent work on about.meta.com under a french based consulting firm",
+      "description": "my recent work on about.meta.com under a french based consulting firm",
       "logo": "/assets/SiaXperience-logo_2.png",
       "link": "pages/sia-partners"
     },
     {
       "title": "Sandstone",
-      "description": "a showcase of my time at a local digital agency",
+      "description": "an intro to my time at a local digital agency",
       "logo": "/assets/logo.png",
       "link": "pages/sandstone"
     }, 

@@ -49,10 +49,15 @@ a:hover {
   line-height: 24px;
 }
 
-.page-title {
+.detail-block .sia-paragraph {
+  margin: 10px 0;
+}
+
+.page-header {
   display: flex;
-  justify-content: center;
-  background: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .overview {
@@ -149,6 +154,14 @@ a:hover {
 }
 
 /* styling specific to only certain blocks */
+
+.sia-paragraph a {
+  text-decoration: underline;
+}
+
+.sia-paragraph a:hover {
+  color: #55c7b9;
+}
 
 .image-block.flourish {
   display: flex;

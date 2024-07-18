@@ -11,7 +11,12 @@ const Sandstone = () => {
           return(
             <div className="detail-block">
 
-              {block.pageTitle ? <h1 className="page-title">{block.pageTitle}</h1> : ""}
+              {block.pageTitle && block.link ? 
+                <div className="page-header">
+                  <h1>{block.pageTitle}</h1> 
+                  <Link href={block.link} target="_blank" className="detail-block-link">{block.link}</Link>
+                </div>
+              : ""}
 
               {block.title ? 
                 <div className="detail-block-header">
