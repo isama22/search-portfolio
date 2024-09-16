@@ -8,7 +8,7 @@
 
 .project-bar {
   margin: 20px 0;
-  background-color:rgb(212, 199, 172, 0.6);
+  background-color:rgba(189, 172, 212, 0.237);
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -17,16 +17,16 @@
   height: 100px;
 }
 
-.project-bar:nth-child(odd) {
-  background-color: rgb(217, 211, 200, 0.6);
+.project-bar:hover {
+  background-color:rgba(192, 161, 213, 0.39);
 }
 
-.project-bar:hover {
-  background-color:rgba(182, 154, 121, 0.39);
+.project-bar:nth-child(odd) {
+  background-color: rgba(200, 207, 217, 0.6);
 }
 
 .project-bar:nth-child(odd):hover {
-  background-color:rgba(217, 211, 200, 0.943)
+  background-color:rgba(200, 203, 217, 0.943)
 }
 
 .text-wrapper {
@@ -68,7 +68,7 @@
 }
 
 .project-links a:hover {
-  color: #55c7b9;
+  color: #1e00ff;
 }
 
 .logo {
