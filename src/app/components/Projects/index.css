@@ -8,7 +8,7 @@
 
 .project-bar {
   margin: 20px 0;
-  background-color:rgba(189, 172, 212, 0.237);
+  background-color:#d0c8b9;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -18,15 +18,15 @@
 }
 
 .project-bar:hover {
-  background-color:rgba(192, 161, 213, 0.39);
+  background-color: #beb8ad;
 }
 
 .project-bar:nth-child(odd) {
-  background-color: rgba(200, 207, 217, 0.6);
+  background-color: #cec9ac;
 }
 
 .project-bar:nth-child(odd):hover {
-  background-color:rgba(200, 203, 217, 0.943)
+  background-color: #b5b198;
 }
 
 .text-wrapper {
